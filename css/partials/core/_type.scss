@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'neutraface titling';
+  src: url('../fonts/neutraface/neutra2displaybold.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'neutraface';
+  src: url('../fonts/neutraface/neutra2displaylight.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+$mlc-type: 'neutraface', Futura, 'Trebuchet MS', Arial, sans-serif;
+
+$mlc-bold: 'neutraface titling', Futura, 'Trebuchet MS', Arial, sans-serif;
+
+.sidebar-link {
+  @include link-transition(500ms);
+  color: $black;
+  &:hover, &:active, &:focus {
+    color: $dk-blue;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $black;
+  }
+}
+
+@font-face {
+  font-family: 'neutraface titling';
+  src: url('../fonts/neutraface/neutra2displaybold.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'neutraface';
+  src: url('../fonts/neutraface/neutra2displaylight.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+$mlc-type: 'neutraface', Futura, 'Trebuchet MS', Arial, sans-serif;
+
+$mlc-bold: 'neutraface titling', Futura, 'Trebuchet MS', Arial, sans-serif;
+
+body {
+  font-family: $mlc-type;
+  font-weight: 400;
+  font-size: 18px;
+  color: $dk-gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  text-align: justify;
+}
+
+a{
+  @include link-transition(700ms);
+  color: $dk-bellini;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: $lt-bellini;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $dk-bellini;
+  }
+
+
+}
+
+.white{
+  @include link-transition(700ms);
+  color: $white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 18%;
+  left: 30%;
+  &:hover, &:active, &:focus {
+    color: $white;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $white;
+  }
+  @include breakpoint(tablet){
+    bottom: 25%;
+  }
+  @include breakpoint(mobile){
+    bottom: 25%;
+  }
+
+
+
+}
+
+.centered {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.section-headline{
+  font-size: 4em;
+}
+
+.fa-link,
+.brand-link,
+.foot-link,
+.sidebar-link {
+  @include link-transition(700ms);
+  text-decoration: none;
+  color: $dk-gray;
+  &:hover, &:active, &:focus{
+    color: $md-gray;
+  }
+  &:visited {
+    color: $dk-gray;
+  }
+
+}
+
+.press-title {
+  color: $white;
+}
+
+.social-media {
+  font-size: 1.25em;
+  padding: 0 2%;
+}
+
+.bottom-text{
+  padding-bottom: 100px;
+}
+
+.disclaimer {
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+

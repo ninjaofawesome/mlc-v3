@@ -1,0 +1,47 @@
+.sidebar-menu {
+  height: 100%;
+  width: 100%;
+  background: $white;
+  z-index: 5;
+
+  .menu-img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 5% auto;
+  }
+
+  .menu-list {
+    list-style-type: none;
+    font-weight: 700;
+    margin: 2.5% 12.5%;
+    padding: 0;
+    font-family: $mlc-bold;
+  }
+
+  .menu-item {
+    @include link-transition(500ms);
+    font-size: 1.75em;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    &:hover {
+      color: $dk-blue;
+    }
+    &:visited {
+      color: $black;
+    }
+  }
+}
+
+.templates {
+
+  #team,
+  #press,
+  #clients,
+  #rolodex,
+  #faq {
+    display: none;
+  }
+}
+

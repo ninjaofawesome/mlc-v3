@@ -1,0 +1,56 @@
+
+.left-marg{
+  margin-left: 15%;
+  @include breakpoint(mobile){
+    margin-left: 0;
+  }
+}
+
+.work-box{
+  padding: 5%;
+  &.bottom {
+    padding-bottom: 10%;
+  }
+}
+
+.circle {
+  position: absolute;
+  left: 45%;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 2px solid $dk-bellini;
+  color: $dk-gray;
+  font-weight: 900;
+}
+
+.circle-text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.work-descriptor {
+  margin-top: 12.5%;
+  text-transform: capitalize;
+}
+
+.work-text {
+  margin: 2% 5%;
+}
+
+.bio-photo{
+  width: 250px;
+  height: auto;
+  margin: 1% 10%;
+}
+
+.bio-title, .bio-subtitle {
+  font-weight: 900;
+  margin: 1% 5%;
+}
+
+.bio-paragraph {
+  text-align: justify;
+  margin: 1% 5%;
+}

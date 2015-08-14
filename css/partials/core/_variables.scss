@@ -1,0 +1,44 @@
+//VARIABLES
+$white: #fff;
+$black: #000;
+$background-white: #FFEEE0;
+$md-gray: #666;
+$dk-gray: #333;
+$lt-gray: #999;
+$pink: #ffcccc;
+$dk-pink: #FF949E;
+$blue: #77d9d3;
+$dk-blue: #70CCC6;
+// $lt-yellow: #FFF565;
+$lt-yellow: #FFF777;
+$dk-yellow: #FFF019;
+$salmon: #FD885C;
+$lt-bellini: #FFCC99;
+$dk-bellini: #FFB347;
+
+//breakpoints
+//iphone
+$screen-xxs:                 320px !default;
+$screen-iphone:              $screen-xxs !default;
+
+// Extra small screen / phone
+$screen-xs:                  480px !default;
+$screen-phone:               $screen-xs !default;
+
+// Small screen / tablet
+$screen-sm:                  768px !default;
+$screen-tablet:              $screen-sm !default;
+
+// Medium screen / desktop
+$screen-md:                  992px !default;
+$screen-desktop:             $screen-md !default;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px !default;
+$screen-lg-desktop:          $screen-lg !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xxs-max:             ($screen-xs - 1) !default;
+$screen-xs-max:              ($screen-sm - 1) !default;
+$screen-sm-max:              ($screen-md - 1) !default;
+$screen-md-max:              ($screen-lg - 1) !default;
