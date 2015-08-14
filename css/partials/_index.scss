@@ -1,8 +1,19 @@
 .sidebar-menu {
   height: 100%;
-  width: 100%;
   background: $white;
-  z-index: 5;
+  @include breakpoint(large){
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
+  @include breakpoint(desktop){
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
+
 
   .menu-img {
     width: 100px;
@@ -17,31 +28,34 @@
     margin: 2.5% 12.5%;
     padding: 0;
     font-family: $mlc-bold;
+    @include breakpoint(tablet){
+      text-align: center;
+    }
+    @include breakpoint(mobile){
+      text-align: center;
+    }
+    @include breakpoint(iphone){
+      text-align: center;
+    }
   }
 
   .menu-item {
-    @include link-transition(500ms);
     font-size: 1.75em;
     margin: 0;
     padding: 0;
     cursor: pointer;
-    &:hover {
-      color: $dk-blue;
-    }
-    &:visited {
-      color: $black;
-    }
   }
 }
 
-.templates {
-
-  #team,
-  #press,
-  #clients,
-  #rolodex,
-  #faq {
-    display: none;
+.main-box {
+  @include breakpoint(large){
+    height: auto;
+    width: 70%;
+  }
+  @include breakpoint(desktop){
+    height: auto;
+    width: 70%;
   }
 }
+
 

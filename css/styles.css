@@ -172,9 +172,19 @@ a {
 
 .sidebar-menu {
   height: 100%;
-  width: 100%;
-  background: white;
-  z-index: 5; }
+  background: white; }
+  @media all and (min-width: 1200px) {
+    .sidebar-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 300px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .sidebar-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 300px; } }
   .sidebar-menu .menu-img {
     width: 100px;
     height: auto;
@@ -186,23 +196,26 @@ a {
     margin: 2.5% 12.5%;
     padding: 0;
     font-family: "neutraface titling", Futura, "Trebuchet MS", Arial, sans-serif; }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+      .sidebar-menu .menu-list {
+        text-align: center; } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .sidebar-menu .menu-list {
+        text-align: center; } }
+    @media all and (max-width: 479px) {
+      .sidebar-menu .menu-list {
+        text-align: center; } }
   .sidebar-menu .menu-item {
-    -webkit-transition: all 500ms ease-out;
-    -moz-transition: all 500ms ease-out;
-    -o-transition: all 500ms ease-out;
-    transition: all 500ms ease-out;
     font-size: 1.75em;
     margin: 0;
     padding: 0;
     cursor: pointer; }
-    .sidebar-menu .menu-item:hover {
-      color: #70ccc6; }
-    .sidebar-menu .menu-item:visited {
-      color: black; }
 
-.templates #team,
-.templates #press,
-.templates #clients,
-.templates #rolodex,
-.templates #faq {
-  display: none; }
+@media all and (min-width: 1200px) {
+  .main-box {
+    height: auto;
+    width: 70%; } }
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .main-box {
+    height: auto;
+    width: 70%; } }
