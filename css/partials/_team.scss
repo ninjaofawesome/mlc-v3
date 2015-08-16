@@ -1,0 +1,45 @@
+.work-text {
+  margin: 2% 5%;
+}
+
+.bio-photo{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-photo{
+  width: auto;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.bio-title {
+  font-weight: 900;
+  margin: 0 7.5% 1% 7.5%;
+  @include breakpoint(desktop){
+    margin: 0 15% 1% 15%;
+  }
+}
+
+.bio-subtitle {
+  margin: 0 7.5%;
+  @include breakpoint(desktop){
+    margin: 0 0 0 15%;
+  }
+}
+
+.bio-paragraph {
+  text-align: justify;
+  margin: 0 7.5%;
+  @include breakpoint(desktop){
+    margin: 0 15%;
+  }
+  &.first {
+    margin: 5% 5% 0 5%;
+
+  }
+}
