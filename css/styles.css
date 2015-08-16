@@ -332,3 +332,50 @@ a {
       margin: 0 15%; } }
   .bio-paragraph.first {
     margin: 5% 5% 0 5%; }
+
+.press-box {
+  width: 150px;
+  height: 150px;
+  background: white;
+  margin: 25% 0; }
+  .press-box.bellini {
+    background: #ffb347; }
+  .press-box.yellow {
+    background: #fff019; }
+  .press-box.blue {
+    background: #70ccc6; }
+  .press-box.pink {
+    background: #ff949e; }
+  .press-box.gray {
+    background: #666666; }
+  .press-box.salmon {
+    background: #fd885c; }
+
+.press-title {
+  padding: 10px;
+  text-transform: uppercase; }
+
+.first {
+  margin-left: 10%; }
+
+.press-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 2% 37.5%; }
+
+.testimonial-box {
+  width: 300px;
+  height: 300px; }
+
+.testimonial {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center; }
+
+.testimonial-title {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #ffb347;
+  font-style: italic;
+  text-align: center; }
