@@ -44,6 +44,16 @@
     margin: 0;
     padding: 0;
     cursor: pointer;
+    &.bottom {
+      font-size: 1em;
+
+    }
+  }
+
+  .bottom-info{
+    position: absolute;
+    bottom: 0;
+    width: 300px;
   }
 }
 

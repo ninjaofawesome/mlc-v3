@@ -56,6 +56,35 @@
     height: auto;
     width: 70%;
   }
+
+  .index-slide {
+    @include breakpoint(large){
+      height: auto;
+      width: 600px;
+    }
+    @include breakpoint(desktop){
+      height: auto;
+      width: 600px;
+
+    }
+    @include breakpoint(tablet){
+      height: auto;
+      width: 500px;
+
+    }
+    @include breakpoint(mobile){
+      height: auto;
+      width: 420px;
+
+    }
+    @include breakpoint(iphone){
+      height: auto;
+      width: 300px;
+
+    }
+
+  }
+
 }
 
 
