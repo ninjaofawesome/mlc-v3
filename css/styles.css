@@ -264,6 +264,7 @@ a {
 .circle {
   position: absolute;
   left: 45%;
+  top: 0;
   border-radius: 50%;
   height: 40px;
   width: 40px;
@@ -333,6 +334,10 @@ a {
   .bio-paragraph.first {
     margin: 5% 5% 0 5%; }
 
+.questionBox {
+  cursor: pointer;
+  margin: 2.5% 0; }
+
 .press-box {
   width: 150px;
   height: 150px;
@@ -379,3 +384,27 @@ a {
   color: #ffb347;
   font-style: italic;
   text-align: center; }
+
+.placeholder {
+  border: 5px solid black;
+  display: block;
+  margin: 5% auto; }
+  .placeholder.wide {
+    width: 300px;
+    height: auto; }
+  .placeholder.tall {
+    width: auto;
+    height: 300px; }
+
+.client {
+  font-family: "neutraface titling", Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align: center; }
+
+.client-box {
+  width: 250px;
+  display: block;
+  margin: 0 auto; }
+  .client-box .client-list {
+    padding: 0 15%;
+    display: block;
+    margin: 0 auto; }

@@ -1,0 +1,31 @@
+.placeholder {
+  border: 5px solid $black;
+  display: block;
+  margin: 5% auto;
+  &.wide {
+    width: 300px;
+    height: auto;
+  }
+  &.tall {
+    width: auto;
+    height: 300px;
+  }
+}
+
+
+.client {
+  font-family: $mlc-bold;
+  text-align: center;
+}
+
+.client-box{
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  .client-list {
+    padding: 0 15%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
