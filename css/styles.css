@@ -180,6 +180,49 @@ a {
     height: auto;
     width: 70%; } }
 
+.social-media-box {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 10; }
+  .social-media-box .social-media {
+    display: none;
+    list-style-type: none;
+    margin: 0 1%;
+    padding: 0; }
+    .social-media-box .social-media:visible {
+      display: inline;
+      background: white; }
+  .social-media-box .sm-link {
+    display: inline; }
+  .social-media-box .s-link {
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    color: black; }
+    .social-media-box .s-link:hover, .social-media-box .s-link:active, .social-media-box .s-link:focus {
+      text-decoration: none;
+      color: #ffcc99; }
+  .social-media-box .social-media-button {
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    color: #ffcc99;
+    border: 2px solid #ffcc99;
+    background: white; }
+    .social-media-box .social-media-button:hover, .social-media-box .social-media-button:active, .social-media-box .social-media-button:focus {
+      color: white;
+      background: #ffcc99;
+      border: 2px solid #ffcc99;
+      text-decoration: none; }
+    .social-media-box .social-media-button:visited {
+      color: #ffcc99;
+      border: 2px solid #ffcc99;
+      background: white;
+      text-decoration: none; }
+
 .sidebar-menu {
   height: 100%;
   background: white; }
@@ -334,9 +377,32 @@ a {
   .bio-paragraph.first {
     margin: 5% 5% 0 5%; }
 
+.hiring {
+  color: #ff949e;
+  text-align: center; }
+
 .questionBox {
   cursor: pointer;
   margin: 2.5% 0; }
+
+.button-slide-up {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  color: #ffcc99;
+  border: 2px solid #ffcc99;
+  background: white; }
+  .button-slide-up:hover, .button-slide-up:active, .button-slide-up:focus {
+    color: white;
+    background: #ffcc99;
+    border: 2px solid #ffcc99;
+    text-decoration: none; }
+  .button-slide-up:visited {
+    color: #ffcc99;
+    border: 2px solid #ffcc99;
+    background: white;
+    text-decoration: none; }
 
 .press-box {
   width: 150px;
@@ -357,7 +423,7 @@ a {
     background: #fd885c; }
 
 .press-title {
-  padding: 10px;
+  padding: 5px;
   text-transform: uppercase; }
 
 .first {

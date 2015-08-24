@@ -1,4 +1,4 @@
-$(document).ready(function(){
+(function(){
   console.log('the basics have loaded');
 
     function faqButton(){
@@ -20,12 +20,24 @@ $(document).ready(function(){
           }
         });
       });
-
-
-
     }
 
     faqButton();
-});
+
+    function socialSlide(){
+      $('.social-media-button').click(function(){
+        $('.social-media').animate({
+          width: ['toggle', 'swing']
+        }, 450, function(){
+          if($('.social-media').is(':visible')){
+            $('.social-media').css('display','inline');
+          }
+        });
+      });
+
+    }
+
+    socialSlide();
+})();
 
 

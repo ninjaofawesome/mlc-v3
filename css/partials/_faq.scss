@@ -2,3 +2,22 @@
   cursor: pointer;
   margin: 2.5% 0;
 }
+
+.button-slide-up {
+  @include link-transition(500ms);
+  color: $lt-bellini;
+  border: 2px solid $lt-bellini;
+  background: $white;
+  &:hover, &:active, &:focus {
+    color: $white;
+    background: $lt-bellini;
+    border: 2px solid $lt-bellini;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $lt-bellini;
+    border: 2px solid $lt-bellini;
+    background: $white;
+    text-decoration: none;
+  }
+}
