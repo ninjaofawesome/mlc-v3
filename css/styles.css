@@ -272,26 +272,74 @@ a {
   .main-box {
     height: auto;
     width: 70%; } }
-@media all and (min-width: 1200px) {
-  .main-box .index-slide {
-    height: auto;
-    width: 600px; } }
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  .main-box .index-slide {
-    height: auto;
-    width: 600px; } }
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .main-box .index-slide {
-    height: auto;
-    width: 500px; } }
-@media all and (min-width: 480px) and (max-width: 767px) {
-  .main-box .index-slide {
-    height: auto;
-    width: 420px; } }
-@media all and (max-width: 479px) {
-  .main-box .index-slide {
-    height: auto;
-    width: 300px; } }
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1; }
+
+  45% {
+    opacity: 1; }
+
+  55% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+#cf {
+  position: relative;
+  height: 500px;
+  width: 300px;
+  margin: 0 auto; }
+
+#cf img {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; }
+
+#cf img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate; }
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1; }
+
+  45% {
+    opacity: 1; }
+
+  55% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+#cf2 {
+  position: relative;
+  height: 500px;
+  width: 300px;
+  margin: 0 auto; }
+
+#cf2 img {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; }
+
+#cf2 img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate; }
 
 .left-marg {
   margin-left: 15%; }
