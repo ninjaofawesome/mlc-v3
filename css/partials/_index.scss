@@ -59,7 +59,6 @@
 }
 
 
-
 @keyframes cf3FadeInOut {
   0% {
   opacity:1;
@@ -98,21 +97,6 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-duration: 5s;
 animation-direction: alternate;
-}
-
-@keyframes cf3FadeInOut {
-  0% {
-  opacity:1;
-  }
-  45% {
-  opacity:1;
-  }
-  55% {
-  opacity:0;
-  }
-  100% {
-  opacity:0;
-  }
 }
 
 #cf2 {

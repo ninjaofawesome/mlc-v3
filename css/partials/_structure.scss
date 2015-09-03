@@ -1,5 +1,6 @@
 .sidebar-menu {
   height: 100%;
+  min-height: 500px;
   background: $white;
   @include breakpoint(large){
     position: fixed;
@@ -14,43 +15,53 @@
     width: 300px;
   }
 
-
   .menu-img {
     width: 100px;
     height: auto;
     display: block;
     margin: 5% auto;
+    @include breakpoint(tablet){
+      margin: 1% auto;
+    }
+    @include breakpoint(mobile){
+      margin: 1% auto;
+    }
+    @include breakpoint(iphone){
+      margin: 1% auto;
+    }
   }
 
   .menu-list {
     list-style-type: none;
-    font-weight: 700;
+    font-weight: 400;
     margin: 2.5% 12.5%;
     padding: 0;
     font-family: $mlc-bold;
-    @include breakpoint(tablet){
-      text-align: center;
-    }
-    @include breakpoint(mobile){
-      text-align: center;
-    }
-    @include breakpoint(iphone){
-      text-align: center;
-    }
+    font-size: 1em;
   }
 
   .menu-item {
-    font-size: 1.75em;
+    text-transform: uppercase;
+    font-size: 1.25em !important;
     margin: 0;
     padding: 0;
     cursor: pointer;
     &.bottom {
-      font-size: 1em;
+      @include breakpoint(tablet){
+        visibility: hidden;
+      }
+      @include breakpoint(mobile){
+        visibility: hidden;
+      }
+      @include breakpoint(iphone){
+       visibility: hidden;
+      }
     }
   }
 
   .bottom-info{
     position: absolute;
+    display: block;
     bottom: 0;
     width: 300px;
   }
