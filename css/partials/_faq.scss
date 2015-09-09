@@ -5,18 +5,18 @@
 
 .button-slide-up {
   @include link-transition(500ms);
-  color: $lt-bellini;
-  border: 2px solid $lt-bellini;
+  color: $blue;
+  border: 2px solid $blue;
   background: $white;
   &:hover, &:active, &:focus {
     color: $white;
-    background: $lt-bellini;
-    border: 2px solid $lt-bellini;
+    background: $blue;
+    border: 2px solid $blue;
     text-decoration: none;
   }
   &:visited {
-    color: $lt-bellini;
-    border: 2px solid $lt-bellini;
+    color: $blue;
+    border: 2px solid $blue;
     background: $white;
     text-decoration: none;
   }

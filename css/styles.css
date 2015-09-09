@@ -44,13 +44,13 @@ a {
   -moz-transition: all 700ms ease-out;
   -o-transition: all 700ms ease-out;
   transition: all 700ms ease-out;
-  color: #ffb347;
+  color: #77d9d3;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #ffcc99;
+    color: #77d9d3;
     text-decoration: none; }
   a:visited {
-    color: #ffb347; }
+    color: #77d9d3; }
 
 .white {
   -webkit-transition: all 700ms ease-out;
@@ -123,6 +123,9 @@ a {
 .disclaimer {
   margin-top: 25px;
   font-weight: 700; }
+
+.bluelink {
+  color: #77d9d3; }
 
 .sidebar-menu {
   height: 100%;
@@ -213,23 +216,23 @@ a {
     color: black; }
     .social-media-box .s-link:hover, .social-media-box .s-link:active, .social-media-box .s-link:focus {
       text-decoration: none;
-      color: #ffcc99; }
+      color: #77d9d3; }
   .social-media-box .social-media-button {
     -webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
-    color: #ffcc99;
-    border: 2px solid #ffcc99;
+    color: #77d9d3;
+    border: 2px solid #77d9d3;
     background: white; }
     .social-media-box .social-media-button:hover, .social-media-box .social-media-button:active, .social-media-box .social-media-button:focus {
       color: white;
-      background: #ffcc99;
-      border: 2px solid #ffcc99;
+      background: #77d9d3;
+      border: 2px solid #77d9d3;
       text-decoration: none; }
     .social-media-box .social-media-button:visited {
-      color: #ffcc99;
-      border: 2px solid #ffcc99;
+      color: #77d9d3;
+      border: 2px solid #77d9d3;
       background: white;
       text-decoration: none; }
 
@@ -357,7 +360,7 @@ a {
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  border: 2px solid #ffb347;
+  border: 2px solid #77d9d3;
   color: #333333;
   font-weight: 900; }
 
@@ -436,17 +439,17 @@ a {
   -moz-transition: all 500ms ease-out;
   -o-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
-  color: #ffcc99;
-  border: 2px solid #ffcc99;
+  color: #77d9d3;
+  border: 2px solid #77d9d3;
   background: white; }
   .button-slide-up:hover, .button-slide-up:active, .button-slide-up:focus {
     color: white;
-    background: #ffcc99;
-    border: 2px solid #ffcc99;
+    background: #77d9d3;
+    border: 2px solid #77d9d3;
     text-decoration: none; }
   .button-slide-up:visited {
-    color: #ffcc99;
-    border: 2px solid #ffcc99;
+    color: #77d9d3;
+    border: 2px solid #77d9d3;
     background: white;
     text-decoration: none; }
 
